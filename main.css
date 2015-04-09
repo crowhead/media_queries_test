@@ -1,13 +1,41 @@
+header {
+  background-color: rgb(248, 243, 227);
+  width: 100%;
+  float: left;
+  clear: both;
+  position: relative;
+}
+
+footer {
+  background-color: rgb(248, 243, 227);
+  width: 100%;
+  float: left;
+  clear: both;
+  position: relative;
+}
+
 #red {
   background-color: rgb(223, 75, 58);
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  position: relative;
 }
 
 #blue {
   background-color: rgb(64,128,191);
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  position: relative;
 }
 
 #green {
   background-color: rgb(95, 214, 94);
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  position: relative;
 }
 
 @media screen and (max-width:959px) {
@@ -25,5 +53,35 @@
   }
   footer {
     width: 100%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  header {
+    width: 100%;
+  }
+  #red{
+    width: 100%;
+  }
+  #blue {
+    width: 100%;
+  }
+  #green {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  header {
+    width: 320px;
+  }
+  body {
+    width: 320px;
+  }
+  footer{
+    width: 320px;
   }
 }
