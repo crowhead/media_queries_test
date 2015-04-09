@@ -4,6 +4,8 @@ body {
 
 p {
   font-family: serif;
+  font-size: 14pt;
+  color: #3b3b3b;
   margin: 10px;
 }
 
