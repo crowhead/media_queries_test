@@ -1,0 +1,29 @@
+#red {
+  background-color: rgb(223, 75, 58);
+}
+
+#blue {
+  background-color: rgb(64,128,191);
+}
+
+#green {
+  background-color: rgb(95, 214, 94);
+}
+
+@media screen and (max-width:959px) {
+  header {
+    width: 100%;
+  }
+  #red{
+    width: 50%;
+  }
+  #blue {
+    width: 50%;
+  }
+  #green {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
